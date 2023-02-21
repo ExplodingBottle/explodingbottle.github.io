@@ -97,7 +97,7 @@ function onCheckUpdate(status) {
 function onPingEnd(status) {
     if (status != NO_ERROR) {
         if (status == PING_CON_ERROR || status == PING_CON_TIMEOUT) {
-            jsDisplay.innerHTML = "It seems like the ExplodingAU client is not installed Please download it <a href=''>here</a>.<br>Error code: " + status;
+            jsDisplay.innerHTML = "It seems like the ExplodingAU client is not launched. If you don't have it, please download it <a href=''>here</a>.<br>Error code: " + status;
         } else {
             dispError(status);
         }

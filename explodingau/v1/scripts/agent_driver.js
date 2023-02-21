@@ -1,4 +1,4 @@
-const version = "1.0.0.0";
+const version = "1.0.0.1";
 const port = 7498;
 const host = "localhost";
 const reqString = "/explodingaua/browser_gateway.class?data=";
